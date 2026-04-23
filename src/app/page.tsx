@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { getLivePrototypes } from '@/lib/prototypes';
 import { PrototypeCard } from '@/components/PrototypeCard';
 
@@ -28,12 +27,6 @@ export default function HomePage() {
           ))}
         </div>
       )}
-
-      <footer className="border-t border-zinc-200 pt-6 text-sm text-zinc-500 dark:border-zinc-800 dark:text-zinc-400">
-        Got an idea? <Link href="/submit" className="underline">Submit it.</Link>
-        {' · '}
-        Curious what got killed? <Link href="/archive" className="underline">See the archive.</Link>
-      </footer>
     </div>
   );
 }

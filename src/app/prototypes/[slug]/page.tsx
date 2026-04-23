@@ -15,7 +15,7 @@ export default function PrototypePage({ params }: { params: { slug: string } }) 
   return (
     <div className="mx-auto max-w-4xl space-y-6 px-4 py-10">
       <Link
-        href={p.archived ? '/archive' : '/'}
+        href="/"
         className="text-sm text-zinc-500 hover:underline dark:text-zinc-400"
       >
         ← Back
